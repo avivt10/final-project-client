@@ -1,0 +1,35 @@
+.page-container{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    height: 7%;
+    /* background-color: black; */
+
+}
+.content-container{
+    display:flex;
+    flex-direction: column;
+    height:93% ;
+    background-color: grey;
+    align-items: center;
+}
+table{
+    height: 90%;
+    background-color: "green";
+    width: 100%;
+  
+}
+td,th{
+    width:20%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
